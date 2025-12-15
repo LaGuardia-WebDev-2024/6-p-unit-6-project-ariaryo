@@ -13,8 +13,14 @@ void draw(){
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
 
-  
+  ect(50, 50, 100, 80); 
+ellipse(200, 100, 50); 
+triangle(150, 250, 250, 250, 200, 150); 
 
+
+fill(0, 0, 0);      // nya
+fill(0, 0, 0);      // um
+fill(0, 0, 0);      // hi
 }
 
 //🟡Extra FUN Features Ms. Hall Added
