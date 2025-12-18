@@ -1,6 +1,7 @@
 //🟢Setup Procedure - Runs Once to Set The Canvas
 void setup() {
     size(400, 400); 
+  noStroke();
     background(255,255,255,100);
 }
 
@@ -10,22 +11,29 @@ void draw(){
   fill(255,255,255);
   strokeWeight(1);
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  // rectangle
-  fill(255, 0, 0);
-  rect(50, 50, 100, 80);
+  
+ // background1
+  fill(255, 239, 5);
+  rect(0, 0, 200, 500);
+
+ // background2
+ translate(200,0)
+  fill(0, 0, 0);
+  rect(0, 0, 200, 500);
 
   //   ellipse 
-  translate(30,5);
+  translate(100,5);
   fill(0, 255, 0);
-  ellipse(200, 100, 80, 80);
+  ellipse(1000, 100, 80, 80);
 
+  translate(-300,-5)
   //  triangle 
-  translate(50,0);
+  
   fill(0, 0, 255);
   triangle(150, 250, 250, 250, 200, 150);
 
   //  circle 
-  translate(100, 0);
+ 
   fill(0, 0, 0);
   ellipse(120, 150, 30, 30);
 }
