@@ -21,21 +21,33 @@ void draw(){
   fill(0, 0, 0);
   rect(0, 0, 200, 500);
 
-  //   ellipse 
-  translate(100,5);
-  fill(0, 255, 0);
-  ellipse(1000, 100, 80, 80);
+  
 
   translate(-300,-5)
   //  triangle 
   
-  fill(0, 0, 255);
-  triangle(150, 250, 250, 250, 200, 150);
+  fill(53, 83, 143);
+  triangle(36, 350, 250, 300, 200, 150);
+
+ //  triangle 
+  
+  fill(53, 83, 143);
+  triangle(400, 350, 250, 300, 195, 150);
+
+   //  triangle 
+  
+  fill(53, 83, 143);
+  triangle(30, 350, 400, 300, 30, 40);
 
   //  circle 
  
-  fill(0, 0, 0);
+  fill(8, 12, 19);
   ellipse(120, 150, 30, 30);
+  
+  //   ellipse 
+  
+  fill(8, 12, 19);
+  ellipse(1000, 100, 80, 80);
 }
 
 //🟡Extra FUN Features Ms. Hall Added
