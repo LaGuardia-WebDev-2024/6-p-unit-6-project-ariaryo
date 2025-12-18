@@ -19,8 +19,8 @@ html{
 
 #myCanvas {
   border-radius: 30px;
-  border: 15px double rgb(0, 0, 0);
-  box-shadow: 6px 6px 16px rgba(255, 58, 245, 0.25);
+  border: 15px double rgb(255, 239, 5);
+  box-shadow: 6px 6px 16px rgb(52, 80, 135);
   display: block;
   margin: 100px auto;
 }
