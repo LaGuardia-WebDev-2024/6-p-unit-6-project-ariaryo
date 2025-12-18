@@ -9,18 +9,25 @@ void setup() {
 void draw(){
   fill(255,255,255);
   strokeWeight(1);
-
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  
+  // rectangle
+  fill(255, 0, 0);
+  rect(50, 50, 100, 80);
 
-ect(50, 50, 100, 80); 
-ellipse(200, 100, 50); 
-triangle(150, 250, 250, 250, 200, 150); 
+  //   ellipse 
+  translate(30,5);
+  fill(0, 255, 0);
+  ellipse(200, 100, 80, 80);
 
+  //  triangle 
+  translate(50,0);
+  fill(0, 0, 255);
+  triangle(150, 250, 250, 250, 200, 150);
 
-fill(5, 0, 0);      // nya
-fill(0, 0, 0);      // um
-fill(0, 0, 0);      // hi
+  //  circle 
+  translate(100, 0);
+  fill(0, 0, 0);
+  ellipse(120, 150, 30, 30);
 }
 
 //🟡Extra FUN Features Ms. Hall Added
